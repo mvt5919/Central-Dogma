@@ -61,8 +61,7 @@ goal.x = 5
 goal.y = 5
 
 while not rospy.is_shutdown():
-	get_rot(x) = x
-	get_rot(y) = y
+	x, y, theta = get_rot()
 	inc_x = goal.x - x
 	inc_y = goal.y - y
 
